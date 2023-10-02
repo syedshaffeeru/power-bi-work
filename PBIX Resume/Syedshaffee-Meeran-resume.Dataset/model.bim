@@ -1,0 +1,315 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.121.942.0 (23.09)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Experience\",\"Skills\",\"Measure Table\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "Experience",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Role ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9b9c296d-96f6-4446-89cf-e0fce4fe5dec",
+            "sortByColumn": "Order",
+            "sourceColumn": "Role ",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7b1ab148-3fc8-4db4-a296-21a91f27ae3a",
+            "sortByColumn": "Order",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Period",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dd53680e-9864-42e0-a547-fab7ee242b3a",
+            "sortByColumn": "Order",
+            "sourceColumn": "Period",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0bfb10e6-3b48-4dfc-bbec-28a8d886f840",
+            "sourceColumn": "Order",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "2f37bbe6-a05d-4b0f-8357-eef43d8b3de6",
+        "partitions": [
+          {
+            "name": "Experience",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"7VbbbttGEP2VgYECLSo7jpO0z7LEGGpVSZGcpEWShxU5krZacpXdpRXlqX/QlwL9v3xJz+yStOyg6UORogUKGDC13LmdOXOGr16dzK1hOumdDNnnTu+CthV+zdhpW+Bh6gp2J296r07GWX9Il88Xo0m2WNBocp2Nx6OrbDLIaJi9yGbjaTanHvUvB/R0dC2XYP7h919fh4GtKs4DFXq1YscVnlRQ5G3tcvZk9JZpiJOl0/nW92hR2f3KqC3D2/vapZc0jgeLZ2OiBbsbdtSvlDkEnft4oOGrR9Ph5eB0qTwXd4L0iEN+Rivr0rGu1uylVjxR2DDN7B4eL0e0MyrgWnn2uorJLzhQvSNVFRScrZeG/cbacGtwpQLv1SHeeKFdqJWhCYe9dduUeHuhC55yojzBom90OLTRhnzDxu4IILHbOe35dO1UwcDOB6eXdUBhO2eLOg8eiatAuapox05y7pHPlQFKkouGC9gGlidLipbOquLIM3Fu/cEH7mp9ao2x+2Rd7gyX0itdFTViH2gJxBBbIWVpm5QDpxzgj4IumRClVG4rgHkAHHEFmmI2GD0YDClwvqmssWsNe4mi6mBLSbFQh9NgT/GPgvJb32b0UlDc67CBS3bJKLAqqeRyGQ8CKWPICG4ppwYLVQFiVOHsTapDTH29bvreRcjewUCz3FZFqSvBWQVJH77aFuHXx5T9iJvpAAw95m1L6ubloVI7z3c4/glmKvlrSX6fmX3vAYIBIaS0+D9hY1e37CwSoQQqtCd3LGg73lkXEprrWoNeaBXsKqqkAdIlDSJRvgG2LAmdURP0B+SzvhPq28bdUagecs9NXUTc2PA6ARo7K2n4Hed6pfNbkx5ebuVO5Cpg98hK+mDjeOrYVm+BBYYF/EYdEpuleUH7hvIHVqizPY9NBViQoe9qc6CL84tH9OGX32jm2IMROH8YlW2RTUbT+Se0bTyd/bm2GaOWVuasSERdCvnZ+8TYHooBhlA/x29rdNanVOtdEU1kRjwmJiYN7gkGaFvXoTy3ZWmLBGDnumIuOgaP2lGFu0e0qg1qXdVVLuChiYm4ORrcDN3D86/T4UqG3ULyS/0+QY1pAb19M90pCQl8PFPigquNPEvQLo0rrjjBIDfQdg2Nxq+3dWxaV5L0F4JiS+Hk8iDNFjWTMO1V5X3tYjCkjemJHh3kCstIqPfNky+EYSCBF3Xr/JFHGX6lYun3JBWGj48qSsLXSKiIhEwB0Eb1GjMFr7HgiEpUujyvo5gWoK6X0zIS9gxEmIjEQI2EYReRYR3f8PYicmw2fQkKobPzbDadX/8Vre7Pb6dgxxp1W+PzCtPig1zoOCJ80y71SECCM0Ad+F1oGuT1ukpEAMFEPdEZ+K28VE5O7VtBEl1nVaFakAu/Ybi57fsgaUqh/GZplSt8t33iqrhhutFelmJLgLQc2grPaFQgRb060JYPd9W7KiBDwYInX34/G/mv0oDlBmNOdvlzXJ4NqaNkoKVVAPKlrTTM6DRsrOcu0Y2CSkUJlP5FEKTAwua1oJSOIR1GaSkWi2VtHSKWmNmdcqrkECc6wdVrWGnUnX0yjLj22sZB2DD0vQbynbGHW21OH1wp/6Zu3AlKJ01vdL91PGtuDPs/YlBE3pJlO+qxyR2q7Y4QLzLPYG/88squx+2US44rcOWYDhXv29FoXcz56BpIz7cL4kHkIa+h5FgVsieEQ404HOlZS8kRSGGMXsdtey+MfNhJWQexkImLnxtQ6tqIZkJMRSNX2oT2OwAfN7uNb+7Gr5C6G4O4v1exv5//U+KeBJxHCbgjCrjx6HjVLKZPr1/25xllkyvsnGw+mlxRf9If/7S4ljz6g0E2uX4+z/6DekB/VxDatfbZZOF/VfjXqwJ9Njn4J9SgX6/xRYLJf/jkIy04x/vHJ2/e/AE=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t, Column2 = _t, Column3 = _t, Column4 = _t]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Role \", type text}, {\"Description\", type text}, {\"Period\", type text}, {\"Order\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Skills",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "772f7fc6-9420-41cd-af79-6ad53b118439",
+            "sourceColumn": "Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Skill",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "df9f0293-dd65-4db4-aee5-a7091aae4c4d",
+            "sourceColumn": "Skill",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Rating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "3b6db5f7-9eb4-48aa-93eb-35a2d15dc763",
+            "sourceColumn": "Rating",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Remaining",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c53b23ce-2675-4e45-984e-bf9a410bcddd",
+            "sourceColumn": "Remaining",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "a8ca24dd-66f6-447b-a11d-e4be5dbe68c1",
+        "partitions": [
+          {
+            "name": "Skills",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"VYxLC8IwEIT/Ssi5iG+9RkvRgyC2t9DDErdtMA8JEam/3iR6SC+zs/PNLue0GZ9IC1o/pFJh3sBL00eDGqSJvi04rW3nQ9ggaHIBAz1qNDGZz/ZJl3ntqGSgpALx+zUtncDdw3q1b3TkcA52EemEjX6wJt1sk65zWoIHwpwYpEfhXw5TZZd0lRfZJ0DCyiqhzV/b9gs=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t, Column2 = _t, Column3 = _t, Column4 = _t]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Type\", type text}, {\"Skill\", type text}, {\"Rating\", type number}, {\"Remaining\", type number}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Measure Table",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "7c76aaf0-4ace-4a1c-b558-4f827489f519",
+            "sourceColumn": "Column1",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "851d2b8a-b35b-4208-abfe-d05757a6833a",
+        "measures": [
+          {
+            "name": "L Period",
+            "expression": [
+              "",
+              "CALCULATE(MAX('Experience'[Period]),Experience[Order] = MIN(Experience[Order]))"
+            ],
+            "lineageTag": "b08fc83c-af53-4e23-8fba-57834d5dda35"
+          },
+          {
+            "name": "L Role",
+            "expression": [
+              "",
+              "CALCULATE(MAX('Experience'[Role ]),Experience[Order] = MIN(Experience[Order]))"
+            ],
+            "lineageTag": "5bad4730-1686-46b5-9d98-0fe3e95a81c9"
+          },
+          {
+            "name": "L Descriton",
+            "expression": [
+              "",
+              "CALCULATE(MAX('Experience'[Description]),Experience[Order] = MAX(Experience[Order]))"
+            ],
+            "lineageTag": "782e62ec-c772-45cb-b886-a5c0b46044e5"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Measure Table",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

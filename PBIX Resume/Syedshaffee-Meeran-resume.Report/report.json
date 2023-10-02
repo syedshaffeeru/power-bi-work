@@ -1,0 +1,167 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "ratingsvisual001"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "BG5210576288551245.png",
+            "path": "BG5210576288551245.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}],\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'BG.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"BG5210576288551245.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"206L\"}}}}}]}}",
+      "displayName": "CV",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 723.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"11a51d2aa0526b2e029e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":365.7386934673367,\"y\":520.7537688442211,\"z\":7000,\"width\":123.52763819095478,\"height\":90.82914572864323,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.udemy.com/certificate/UC-65ea76e2-f472-4a8c-bf56-6da51e546f9d/'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 90.83,
+          "width": 123.53,
+          "x": 365.74,
+          "y": 520.75,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"20591a04464343cd0342\",\"layouts\":[{\"id\":0,\"position\":{\"x\":730.2663316582915,\"y\":555.8743718592965,\"z\":12000,\"width\":276.1206030150754,\"height\":92.04020100502512,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/syedshaffee-meeran-3547ab59/overlay/experience/1767930919/multiple-media-viewer/?profileId=ACoAAAxl2jABYGXSVZmRDO0IGahK-vR23_QAwv4&treasuryMediaId=1635510059379'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 92.04,
+          "width": 276.12,
+          "x": 730.27,
+          "y": 555.87,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"3314ac603870a66e0761\",\"layouts\":[{\"id\":0,\"position\":{\"x\":182.86934673366835,\"y\":520.7537688442211,\"z\":6000,\"width\":123.52763819095478,\"height\":90.82914572864323,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.udemy.com/certificate/UC-953f55bb-f13c-48e3-9671-4f5062276746/'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 90.83,
+          "width": 123.53,
+          "x": 182.87,
+          "y": 520.75,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"4377073d3710ede101d4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":739.9547738693468,\"y\":416.6030150753769,\"z\":10000,\"width\":220.41206030150755,\"height\":128.37185929648243,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/syedshaffee-meeran-3547ab59/overlay/experience/1767930919/multiple-media-viewer/?profileId=ACoAAAxl2jABYGXSVZmRDO0IGahK-vR23_QAwv4&treasuryMediaId=1635510059379'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.37,
+          "width": 220.41,
+          "x": 739.95,
+          "y": 416.60,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"4afe564e1083edd28115\",\"layouts\":[{\"id\":0,\"position\":{\"x\":182.86934673366835,\"y\":415.391959798995,\"z\":4000,\"width\":123.52763819095478,\"height\":93.25125628140704,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.udemy.com/certificate/UC-e93892b2-2ecd-491f-ab2a-fcfb044a004b/'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 93.25,
+          "width": 123.53,
+          "x": 182.87,
+          "y": 415.39,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"4c88f75943d0a1299045\",\"layouts\":[{\"id\":0,\"position\":{\"x\":960.3668341708543,\"y\":416.6030150753769,\"z\":11000,\"width\":220.41206030150755,\"height\":128.37185929648243,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/syedshaffee-meeran-3547ab59/overlay/experience/1767930919/multiple-media-viewer/?profileId=ACoAAAxl2jABYGXSVZmRDO0IGahK-vR23_QAwv4&treasuryMediaId=1635510059379'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.37,
+          "width": 220.41,
+          "x": 960.37,
+          "y": 416.60,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"746285a13972b2538bb0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":277.3316582914573,\"y\":611.5829145728644,\"z\":8000,\"width\":123.52763819095478,\"height\":90.82914572864323,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.udemy.com/certificate/UC-f3515c90-230b-46df-aa37-29102272ef9b/'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 90.83,
+          "width": 123.53,
+          "x": 277.33,
+          "y": 611.58,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"86e65a286e9bebd70475\",\"layouts\":[{\"id\":0,\"position\":{\"x\":182.86934673366835,\"y\":50.86432160804021,\"z\":2000,\"width\":528.0201005025126,\"height\":136.84924623115577,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Experience.Period\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Experience.Period)\"}],\"Tooltips\":[{\"queryRef\":\"Min(Experience.Role )\"},{\"queryRef\":\"Min(Experience.Description)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"Experience\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Period\"},\"Name\":\"Experience.Period\",\"NativeReferenceName\":\"Period\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Period\"}},\"Function\":5},\"Name\":\"CountNonNull(Experience.Period)\",\"NativeReferenceName\":\".\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Description\"}},\"Function\":3},\"Name\":\"Min(Experience.Description)\",\"NativeReferenceName\":\"Description\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Role \"}},\"Function\":3},\"Name\":\"Min(Experience.Role )\",\"NativeReferenceName\":\"Role \"}]},\"columnProperties\":{\"Min(Experience.Role )\":{\"displayName\":\"Role \"},\"Min(Experience.Description)\":{\"displayName\":\"Description\"},\"CountNonNull(Experience.Period)\":{\"displayName\":\".\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"lineStyles\":[{\"properties\":{\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"markerSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"CountNonNull(Experience.Period)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 136.85,
+          "width": 528.02,
+          "x": 182.87,
+          "y": 50.86,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"87769d53bed1755c18e5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1080.2613065326634,\"y\":230.10050251256283,\"z\":1000,\"width\":178.0251256281407,\"height\":132.00502512562815,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Skills.Skill\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Skills.Rating)\"},{\"queryRef\":\"Sum(Skills.Remaining)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Skills\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Skill\"},\"Name\":\"Skills.Skill\",\"NativeReferenceName\":\"Skill\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Rating\"}},\"Function\":0},\"Name\":\"Sum(Skills.Rating)\",\"NativeReferenceName\":\"Sum of Rating\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Remaining\"}},\"Function\":0},\"Name\":\"Sum(Skills.Remaining)\",\"NativeReferenceName\":\"Sum of Remaining\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Rating\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"50L\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"metadata\":\"Sum(Skills.Remaining)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(Skills.Rating)\"}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filterb6709cd0ba410c13b270\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Skill\"}},\"type\":\"Categorical\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":0},{\"name\":\"Filter8a86ff90d0edb09ca8b3\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Rating\"}},\"Function\":0}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":1},{\"name\":\"Filter721ee056c08d0731679b\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Remaining\"}},\"Function\":0}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":2},{\"name\":\"Filter3c9a6e3abede87d635da\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Type\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Skills\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Soft'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{},\"ordinal\":3}]",
+          "height": 132.01,
+          "width": 178.03,
+          "x": 1080.26,
+          "y": 230.10,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"afe157ab6790ee00da99\",\"layouts\":[{\"id\":0,\"position\":{\"x\":515.9095477386935,\"y\":425.08040201005025,\"z\":9000,\"width\":215.5678391959799,\"height\":156.22613065326635,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/syedshaffee-meeran-3547ab59/overlay/experience/1767930919/multiple-media-viewer/?profileId=ACoAAAxl2jABYGXSVZmRDO0IGahK-vR23_QAwv4&treasuryMediaId=1635510059379'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 156.23,
+          "width": 215.57,
+          "x": 515.91,
+          "y": 425.08,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"b1680571aa930aed4a83\",\"layouts\":[{\"id\":0,\"position\":{\"x\":365.7386934673367,\"y\":416.6030150753769,\"z\":5000,\"width\":123.52763819095478,\"height\":93.25125628140704,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.udemy.com/certificate/UC-dc9ab6b8-2460-47ec-8ba3-b8cec3bd8b00/'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 93.25,
+          "width": 123.53,
+          "x": 365.74,
+          "y": 416.60,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"bd889795d2e9b41accad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":840.4723618090453,\"y\":230.10050251256283,\"z\":0,\"width\":239.7889447236181,\"height\":132.00502512562815,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Skills.Skill\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Skills.Rating)\"},{\"queryRef\":\"Sum(Skills.Remaining)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Skills\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Skill\"},\"Name\":\"Skills.Skill\",\"NativeReferenceName\":\"Skill\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Rating\"}},\"Function\":0},\"Name\":\"Sum(Skills.Rating)\",\"NativeReferenceName\":\"Sum of Rating\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Remaining\"}},\"Function\":0},\"Name\":\"Sum(Skills.Remaining)\",\"NativeReferenceName\":\"Sum of Remaining\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Rating\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"44L\"}}}}}],\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"metadata\":\"Sum(Skills.Remaining)\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(Skills.Rating)\"}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filterb6709cd0ba410c13b270\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Skill\"}},\"type\":\"Categorical\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":0},{\"name\":\"Filter8a86ff90d0edb09ca8b3\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Rating\"}},\"Function\":0}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":1},{\"name\":\"Filter721ee056c08d0731679b\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Remaining\"}},\"Function\":0}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":2},{\"name\":\"Filter3c9a6e3abede87d635da\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Skills\"}},\"Property\":\"Type\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Skills\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Hard'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{},\"ordinal\":3}]",
+          "height": 132.01,
+          "width": 239.79,
+          "x": 840.47,
+          "y": 230.10,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"cba8122ed445ca183d85\",\"layouts\":[{\"id\":0,\"position\":{\"x\":710.8894472361809,\"y\":12.110552763819095,\"z\":3000,\"width\":569.1959798994975,\"height\":190.1356783919598,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":{\"propertyIdentifier\":{\"objectName\":\"values\",\"propertyName\":\"expr\"},\"selector\":{\"id\":\"Value\"}},\"textStyle\":{\"fontWeight\":\"bold\",\"color\":\"#0d6abf\"}}]},{\"textRuns\":[{\"value\":{\"propertyIdentifier\":{\"objectName\":\"values\",\"propertyName\":\"expr\"},\"selector\":{\"id\":\"Value 2\"}},\"textStyle\":{\"fontWeight\":\"bold\",\"color\":\"#0d6abf\"}},{\"value\":{\"propertyIdentifier\":{\"objectName\":\"values\",\"propertyName\":\"expr\"},\"selector\":{\"id\":\"Value 3\"}},\"textStyle\":{\"fontWeight\":\"bold\",\"color\":\"#0d6abf\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}],\"values\":[{\"properties\":{\"expr\":{\"expr\":{\"Min\":{\"Expression\":{\"Column\":{\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Measure Table\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"L Period\"},\"Name\":\"Measure Table.L Period\"}]}}},\"Property\":\"Measure Table.L Period\"}},\"IncludeAllTypes\":1},\"Annotations\":{\"NaturalLanguage\":{\"version\":1,\"kind\":\"NaturalLanguage\",\"annotation\":{\"name\":\"Value\",\"utterance\":\"L Period\"}}}}}},\"selector\":{\"id\":\"Value\"}},{\"properties\":{\"expr\":{\"expr\":{\"Min\":{\"Expression\":{\"Column\":{\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Measure Table\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"L Role\"},\"Name\":\"Measure Table.L Role\"}]}}},\"Property\":\"Measure Table.L Role\"}},\"IncludeAllTypes\":1},\"Annotations\":{\"NaturalLanguage\":{\"version\":1,\"kind\":\"NaturalLanguage\",\"annotation\":{\"name\":\"Value 2\",\"utterance\":\"l role\"}}}}}},\"selector\":{\"id\":\"Value 2\"}},{\"properties\":{\"expr\":{\"expr\":{\"Min\":{\"Expression\":{\"Column\":{\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Measure Table\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"L Descriton\"},\"Name\":\"Measure Table.L Descriton\"}]}}},\"Property\":\"Measure Table.L Descriton\"}},\"IncludeAllTypes\":1},\"Annotations\":{\"NaturalLanguage\":{\"version\":1,\"kind\":\"NaturalLanguage\",\"annotation\":{\"name\":\"Value 3\",\"utterance\":\"l descriton\"}}}}}},\"selector\":{\"id\":\"Value 3\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 190.14,
+          "width": 569.20,
+          "x": 710.89,
+          "y": 12.11,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
